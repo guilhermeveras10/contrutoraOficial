@@ -58,7 +58,11 @@ class BancosController extends AppBaseController
 
         $bancos = $this->bancosRepository->create($input);
 
+<<<<<<< HEAD
         Flash::success('Banco salvo com sucesso.');
+=======
+        Flash::success('Bancos saved successfully.');
+>>>>>>> master
 
         return redirect(route('bancos.index'));
     }
