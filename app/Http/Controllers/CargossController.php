@@ -58,7 +58,7 @@ class CargossController extends AppBaseController
 
         $cargoss = $this->cargossRepository->create($input);
 
-        Flash::success('Cargoss saved successfully.');
+        Flash::success('Cargo salva com sucesso.');
 
         return redirect(route('cargosses.index'));
     }
