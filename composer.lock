@@ -741,12 +741,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/adminlte-templates.git",
-                "reference": "7eb52c27ea40d54c3c0e0279f1adc98c328d4430"
+                "reference": "9522af30353e8874c5f409acfbd141763d9bbdf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/adminlte-templates/zipball/7eb52c27ea40d54c3c0e0279f1adc98c328d4430",
-                "reference": "7eb52c27ea40d54c3c0e0279f1adc98c328d4430",
+                "url": "https://api.github.com/repos/InfyOmLabs/adminlte-templates/zipball/9522af30353e8874c5f409acfbd141763d9bbdf0",
+                "reference": "9522af30353e8874c5f409acfbd141763d9bbdf0",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +785,7 @@
                 "laravel",
                 "templates"
             ],
-            "time": "2019-09-27T12:49:05+00:00"
+            "time": "2019-10-14T10:53:29+00:00"
         },
         {
             "name": "infyomlabs/laravel-generator",
@@ -793,12 +793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/InfyOmLabs/laravel-generator.git",
-                "reference": "cb29586116acf6940a9dc1dfa1effe9ad32e894c"
+                "reference": "3109825b43891dadbd0aeb8084ec8dd514c3ebf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/cb29586116acf6940a9dc1dfa1effe9ad32e894c",
-                "reference": "cb29586116acf6940a9dc1dfa1effe9ad32e894c",
+                "url": "https://api.github.com/repos/InfyOmLabs/laravel-generator/zipball/3109825b43891dadbd0aeb8084ec8dd514c3ebf3",
+                "reference": "3109825b43891dadbd0aeb8084ec8dd514c3ebf3",
                 "shasum": ""
             },
             "require": {
@@ -851,7 +851,7 @@
                 "test",
                 "view"
             ],
-            "time": "2019-10-10T13:03:33+00:00"
+            "time": "2019-10-14T10:27:19+00:00"
         },
         {
             "name": "infyomlabs/swagger-generator",
@@ -1313,16 +1313,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.55",
+            "version": "1.0.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "33c91155537c6dc899eacdc54a13ac6303f156e6"
+                "reference": "90e3f83cb10ef6b058d70f95267030e7a6236518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/33c91155537c6dc899eacdc54a13ac6303f156e6",
-                "reference": "33c91155537c6dc899eacdc54a13ac6303f156e6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/90e3f83cb10ef6b058d70f95267030e7a6236518",
+                "reference": "90e3f83cb10ef6b058d70f95267030e7a6236518",
                 "shasum": ""
             },
             "require": {
@@ -1393,7 +1393,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-08-24T11:17:19+00:00"
+            "time": "2019-10-12T13:05:59+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1475,16 +1475,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.25.1",
+            "version": "2.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d59c6cea9c4a3547bb6c0dfec451319abdaa4fb1"
+                "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d59c6cea9c4a3547bb6c0dfec451319abdaa4fb1",
-                "reference": "d59c6cea9c4a3547bb6c0dfec451319abdaa4fb1",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/443fe5f1498147e0fbc792142b5dc43e2e8a533f",
+                "reference": "443fe5f1498147e0fbc792142b5dc43e2e8a533f",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1538,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-10-05T15:52:23+00:00"
+            "time": "2019-10-14T14:18:59+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2157,16 +2157,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.23.11",
+            "version": "v3.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "77f4651cbf5b3767f0d79c91fd337de82b6ddee6"
+                "reference": "7e5974c14f95559642ebad5c4dd397a9d54b3602"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/77f4651cbf5b3767f0d79c91fd337de82b6ddee6",
-                "reference": "77f4651cbf5b3767f0d79c91fd337de82b6ddee6",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/7e5974c14f95559642ebad5c4dd397a9d54b3602",
+                "reference": "7e5974c14f95559642ebad5c4dd397a9d54b3602",
                 "shasum": ""
             },
             "type": "library",
@@ -2210,7 +2210,7 @@
                 "swagger",
                 "ui"
             ],
-            "time": "2019-09-20T20:34:23+00:00"
+            "time": "2019-10-12T00:55:58+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
