@@ -58,7 +58,7 @@ class CarteirasController extends AppBaseController
 
         $carteiras = $this->carteirasRepository->create($input);
 
-        Flash::success('Carteiras saved successfully.');
+        Flash::success('Carteira salva com sucesso.');
 
         return redirect(route('carteiras.index'));
     }
@@ -75,7 +75,7 @@ class CarteirasController extends AppBaseController
         $carteiras = $this->carteirasRepository->find($id);
 
         if (empty($carteiras)) {
-            Flash::error('Carteiras not found');
+            Flash::error('Carteira não encontrada');
 
             return redirect(route('carteiras.index'));
         }
@@ -95,7 +95,7 @@ class CarteirasController extends AppBaseController
         $carteiras = $this->carteirasRepository->find($id);
 
         if (empty($carteiras)) {
-            Flash::error('Carteiras not found');
+            Flash::error('Carteira não encontrada');
 
             return redirect(route('carteiras.index'));
         }
@@ -116,14 +116,14 @@ class CarteirasController extends AppBaseController
         $carteiras = $this->carteirasRepository->find($id);
 
         if (empty($carteiras)) {
-            Flash::error('Carteiras not found');
+            Flash::error('Carteira não encontrada');
 
             return redirect(route('carteiras.index'));
         }
 
         $carteiras = $this->carteirasRepository->update($request->all(), $id);
 
-        Flash::success('Carteiras updated successfully.');
+        Flash::success('Carteira upado com sucesso.');
 
         return redirect(route('carteiras.index'));
     }
@@ -142,14 +142,14 @@ class CarteirasController extends AppBaseController
         $carteiras = $this->carteirasRepository->find($id);
 
         if (empty($carteiras)) {
-            Flash::error('Carteiras not found');
+            Flash::error('Carteira não encontrada');
 
             return redirect(route('carteiras.index'));
         }
 
         $this->carteirasRepository->delete($id);
 
-        Flash::success('Carteiras deleted successfully.');
+        Flash::success('Carteira deletado com sucesso.');
 
         return redirect(route('carteiras.index'));
     }
