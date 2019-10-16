@@ -75,7 +75,7 @@ class BancosController extends AppBaseController
         $bancos = $this->bancosRepository->find($id);
 
         if (empty($bancos)) {
-            Flash::error('Bancos not found');
+            Flash::error('Banco não encontrado');
 
             return redirect(route('bancos.index'));
         }
@@ -95,7 +95,7 @@ class BancosController extends AppBaseController
         $bancos = $this->bancosRepository->find($id);
 
         if (empty($bancos)) {
-            Flash::error('Bancos not found');
+            Flash::error('Banco não encontrado');
 
             return redirect(route('bancos.index'));
         }
@@ -116,14 +116,14 @@ class BancosController extends AppBaseController
         $bancos = $this->bancosRepository->find($id);
 
         if (empty($bancos)) {
-            Flash::error('Bancos not found');
+            Flash::error('Banco não encontrado');
 
             return redirect(route('bancos.index'));
         }
 
         $bancos = $this->bancosRepository->update($request->all(), $id);
 
-        Flash::success('Bancos updated successfully.');
+        Flash::success('Banco upado com sucesso.');
 
         return redirect(route('bancos.index'));
     }
@@ -142,14 +142,14 @@ class BancosController extends AppBaseController
         $bancos = $this->bancosRepository->find($id);
 
         if (empty($bancos)) {
-            Flash::error('Bancos not found');
+            Flash::error('Banco não encontrado');
 
             return redirect(route('bancos.index'));
         }
 
         $this->bancosRepository->delete($id);
 
-        Flash::success('Bancos deleted successfully.');
+        Flash::success('Banco deletado com sucesso.');
 
         return redirect(route('bancos.index'));
     }

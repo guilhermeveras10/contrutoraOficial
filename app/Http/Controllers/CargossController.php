@@ -58,7 +58,7 @@ class CargossController extends AppBaseController
 
         $cargoss = $this->cargossRepository->create($input);
 
-        Flash::success('Cargo salva com sucesso.');
+        Flash::success('Cargo salvo com sucesso.');
 
         return redirect(route('cargosses.index'));
     }
@@ -75,7 +75,7 @@ class CargossController extends AppBaseController
         $cargoss = $this->cargossRepository->find($id);
 
         if (empty($cargoss)) {
-            Flash::error('Cargoss not found');
+            Flash::error('Cargo não encontrado');
 
             return redirect(route('cargosses.index'));
         }
@@ -95,7 +95,7 @@ class CargossController extends AppBaseController
         $cargoss = $this->cargossRepository->find($id);
 
         if (empty($cargoss)) {
-            Flash::error('Cargoss not found');
+            Flash::error('Cargo não encontrado');
 
             return redirect(route('cargosses.index'));
         }
@@ -116,14 +116,14 @@ class CargossController extends AppBaseController
         $cargoss = $this->cargossRepository->find($id);
 
         if (empty($cargoss)) {
-            Flash::error('Cargoss not found');
+            Flash::error('Cargo não encontrado');
 
             return redirect(route('cargosses.index'));
         }
 
         $cargoss = $this->cargossRepository->update($request->all(), $id);
 
-        Flash::success('Cargoss updated successfully.');
+        Flash::success('Cargo upado com sucesso.');
 
         return redirect(route('cargosses.index'));
     }
@@ -142,14 +142,14 @@ class CargossController extends AppBaseController
         $cargoss = $this->cargossRepository->find($id);
 
         if (empty($cargoss)) {
-            Flash::error('Cargoss not found');
+            Flash::error('Cargo não encontrado');
 
             return redirect(route('cargosses.index'));
         }
 
         $this->cargossRepository->delete($id);
 
-        Flash::success('Cargoss deleted successfully.');
+        Flash::success('Cargo deletado com sucesso.');
 
         return redirect(route('cargosses.index'));
     }
