@@ -58,7 +58,7 @@ class ContasController extends AppBaseController
 
         $contas = $this->contasRepository->create($input);
 
-        Flash::success('Contas saved successfully.');
+        Flash::success('Conta salvo com sucesso.');
 
         return redirect(route('contas.index'));
     }
@@ -75,7 +75,7 @@ class ContasController extends AppBaseController
         $contas = $this->contasRepository->find($id);
 
         if (empty($contas)) {
-            Flash::error('Contas not found');
+            Flash::error('Conta não encontrado');
 
             return redirect(route('contas.index'));
         }
@@ -95,7 +95,7 @@ class ContasController extends AppBaseController
         $contas = $this->contasRepository->find($id);
 
         if (empty($contas)) {
-            Flash::error('Contas not found');
+            Flash::error('Conta não encontrado');
 
             return redirect(route('contas.index'));
         }
@@ -116,14 +116,14 @@ class ContasController extends AppBaseController
         $contas = $this->contasRepository->find($id);
 
         if (empty($contas)) {
-            Flash::error('Contas not found');
+            Flash::error('Conta não encontrado');
 
             return redirect(route('contas.index'));
         }
 
         $contas = $this->contasRepository->update($request->all(), $id);
 
-        Flash::success('Contas updated successfully.');
+        Flash::success('Conta upado com sucesso.');
 
         return redirect(route('contas.index'));
     }
@@ -142,14 +142,14 @@ class ContasController extends AppBaseController
         $contas = $this->contasRepository->find($id);
 
         if (empty($contas)) {
-            Flash::error('Contas not found');
+            Flash::error('Conta não encontrado');
 
             return redirect(route('contas.index'));
         }
 
         $this->contasRepository->delete($id);
 
-        Flash::success('Contas deleted successfully.');
+        Flash::success('Conta deletada com sucesso.');
 
         return redirect(route('contas.index'));
     }
