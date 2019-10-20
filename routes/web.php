@@ -55,3 +55,5 @@ Route::resource('contas', 'ContasController');
 Route::resource('carteiras', 'CarteirasController');
 
 Route::resource('tipos', 'TiposController');
+
+Route::resource('fornecedores', 'FornecedoresController');
