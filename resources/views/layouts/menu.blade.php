@@ -143,15 +143,14 @@
         <li class="{{ Request::is('servicos*') ? 'active' : '' }}">
             <a href="{!! route('servicos.index') !!}"><i class="fa fa-server"></i><span>Usuários</span></a>
         </li>
-        <li class="{{ Request::is('clientes*') ? 'active' : '' }}">
-            <a href="{!! route('clientes.index') !!}"><i class="fa  fa-group"></i><span>Funções</span></a>
-        </li>
-        <li class="{{ Request::is('empresas*') ? 'active' : '' }}">
-            <a href="{!! route('empresas.index') !!}"><i class="fa fa-compass"></i><span>Níveis</span></a>
-        </li>
+        <li class="{{ Request::is('funcoes*') ? 'active' : '' }}">
+            <a href="{!! route('funcoes.index') !!}"><i class="fa fa-edit"></i><span>Funcoes</span></a>
+        </li>        
+        <li class="{{ Request::is('niveis*') ? 'active' : '' }}">
+            <a href="{!! route('niveis.index') !!}"><i class="fa fa-edit"></i><span>Niveis</span></a>
+        </li>        
         <li class="{{ Request::is('funcionarios*') ? 'active' : '' }}">
             <a href="{!! route('funcionarios.index') !!}"><i class="fa fa-heart"></i><span>Rotinas</span></a>
         </li>
     </ul>
 </li>
-

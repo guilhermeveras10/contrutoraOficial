@@ -28,16 +28,6 @@ Route::resource('servicos', 'ServicosController');
 
 Route::resource('clientes', 'ClientesController');
 
-Route::resource('clientes', 'ClientesController');
-
-Route::resource('clientes', 'ClientesController');
-
-Route::resource('clientes', 'ClientesController');
-
-Route::resource('servicos', 'ServicosController');
-
-Route::resource('servicos', 'ServicosController');
-
 Route::resource('empresas', 'EmpresasController');
 
 Route::resource('funcionarios', 'FuncionariosController');
@@ -57,3 +47,7 @@ Route::resource('carteiras', 'CarteirasController');
 Route::resource('tipos', 'TiposController');
 
 Route::resource('fornecedores', 'FornecedoresController');
+
+Route::resource('niveis', 'NiveisController');
+
+Route::resource('funcoes', 'FuncoesController');
